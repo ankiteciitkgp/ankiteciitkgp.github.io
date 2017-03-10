@@ -1,0 +1,40 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: https://ankiteciitkgp.github.io/
+author: Ankit Bansal
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+description: Personal Website and Blog
+baseurl: /
+title: About me | Ankit Bansal
+vitae_title: Vitae | Ankit Bansal
+name: Ankit Bansal	
+avatar: profile.jpg
+email: ankiteciitkgp@gmail.com
+email_full: mailto:ankiteciitkgp@gmail.com
+website: ankiteciitkgp.github.io
+website_full: https://ankiteciitkgp.github.io
+github: ankiteciitkgp
+linkedin: ankiteciitkgp
+disqus: ankiteciitkgp
+twitter: ankit_b1994
+tel: +91 8389934342
+#tel_full: tel:+440000000000
+#google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'
+address: B-301, LLR Hall of Residence, IIT Kharagpur
+postcode: 721302
+city: Kharagpur
+country: India
+google_analytics: UA-92632261-1
+
+# needed for travis-ci build
+exclude: [vendor]

@@ -1,1 +1,36 @@
-is this up?
+---
+layout: home
+---
+
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image" 
+		style="width:250px;height:250px;" align="left">
+	  	</div>
+	  	<h1>{{ site.author }}</h1>
+	  	<h4> 
+	  		I am final year student at the Indian Institute of Technology, Kharagpur pursuing majors in Electronics with specialization in Visual Information Processing & Embedded Systems.
+	    </h4>
+	    <h4> 
+	    	My interests lie in intersection of Cyber Security and Machine(read Deep) learning. My goal is to develop smart security systems which can adapt themselves which emerging number of security threats with increasing number of devices on the internet especially IoT devices.
+	    </h4>
+	    <h4>
+	    </h4>
+	    <h4>
+	    	I have recently developed interest in Finance & Stock Markets. Presently, I am honing my skills in this area in my free time. You can check out what I learned till the date through this <a href="{{ site.baseurl }}post1.html">blogpost</a>
+
+	  <!--Have a look at some of my working <a href="{{ site.baseurl }}projects.html"> projects</a>.
+	  For more check out my academic &amp; professional <a href="{{ site.baseurl }}vitae.html">Resume</a>
+	  Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a-->
+	  	</h4>
+	  	<h4>
+	  	</h4>
+	  	<div class="blogpost">
+			<blockquote>
+  				<p>This is Markdown Cheatsheet Demo for <strong>Sustain</strong>, this Jekyll theme. Please check the raw content of this file for 	the markdown usage.</p>
+			</blockquote>
+	    	</div>
+	    	{% include social.html %}
+		</div>
+</section>
