@@ -14,7 +14,7 @@ author: Ankit Bansal
 # biomadeira.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
 description: Personal Website and Blog
-baseurl: /
+baseurl: ''
 title: About me | Ankit Bansal
 vitae_title: Vitae | Ankit Bansal
 name: Ankit Bansal	
