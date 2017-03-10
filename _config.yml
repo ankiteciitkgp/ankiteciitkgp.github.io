@@ -7,7 +7,7 @@ paginate: 5
 gems: [jekyll-paginate]
 port: 4000
 safe: true
-url: https://ankiteciitkgp.github.io/
+url: https://ankiteciitkgp.github.io
 author: Ankit Bansal
 
 # edit this section with your information
